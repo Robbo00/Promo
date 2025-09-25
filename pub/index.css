@@ -17,6 +17,7 @@ body{
    align-items: center;
    justify-content: start;
    gap: 80vw;
+   left: 3vw;
 }
 
 .header > svg{
@@ -47,6 +48,8 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: relative;
+    left: 3vw;
 }
 
 /* .opening > img{
@@ -128,4 +131,7 @@ h2{
 }
 button{
     font-size: .9vw;
+}
+h1{
+    width: 70%;
 }
