@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename)
 const app = express()
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
-app.use( express.static(path.join(__dirname, 'pub')))
+app.use( express.static(path.join(__dirname, 'docs')))
 
 const PORT = 5500
 
