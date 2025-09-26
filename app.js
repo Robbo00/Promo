@@ -8,14 +8,14 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const app = express()
-// app.use(express.urlencoded({extended:true}))
-// app.use(express.json())
+app.use(express.urlencoded({extended:true}))
+app.use(express.json())
 app.use( express.static(path.join(__dirname, 'pub')))
 
 const PORT = 5500
 
-const folder = path.join(__dirname, '..', 'data')
-const file = path.join(folder, "students.json")
+const folder = path.join(__dirname, 'data')
+const file = path.join(folder, "submissions.json")
 ensureDataFile()
 
 export async function ensureDataFile() {
@@ -69,15 +69,17 @@ function genId(){
 
 export async function addStudent(input){
     let clean = dataValidation(input)
-    
+    console.log(clean)
     const Student = {
         id: genId(),
         ...clean,
         createdAt: new Date().toISOString()
     }
+    console.log(Student)
 
     const list = await listStudents()
     list.push(Student)
+    console.log(list)
     await fs.writeFile(file, JSON.stringify(list, null, 2), "utf-8")
 }
 
@@ -95,9 +97,10 @@ app.post('/api/student', async (req,res,next)=>{
     try{
         const data = req.body
         const created = addStudent(data)
-        res.status(201).json({message: 'student added'})
+        res.status(201).json({message: 'added', list: listStudents()})
     }
     catch(err){
+        next(err)
         res.status(404)
     }
 })
