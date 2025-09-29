@@ -85,3 +85,8 @@ button{
     font-weight: 700;
     transform: scale(1.08);
 }
+
+sub{
+    font-size: 1.6vh;
+    transition: .2s;
+}

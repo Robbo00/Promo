@@ -41,6 +41,7 @@ body{
     color: white;
     font-weight: 500;
     z-index: 2;
+    transition: .2s;
 }
 
 .opening{
@@ -128,6 +129,7 @@ button:hover{
 
 sub{
     font-size: 1.6vh;
+    transition: .2s;
 }
 h2{
     font-size: 3.1vh;
