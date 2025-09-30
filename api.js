@@ -15,7 +15,7 @@ app.get("/api/beats", async (req, res) => {
     let red = 0
 
     $(".product-slide").each((i, el) => {
-      const name = $(el).find(".product-main__head>a>span.title-1").text().trim()
+      const name = $(el).find(".title-1").text().trim()
       const price = $(el).find(".product-detail__price").text().trim()
       const img = $(el).find("img").attr("src")
       

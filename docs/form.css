@@ -43,6 +43,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 form{
@@ -59,6 +60,7 @@ INPUT{
     height: 7vh;
     border-radius: 1vh;
     border: solid 1px;
+    font-size: large;
 }
 
 h1{
