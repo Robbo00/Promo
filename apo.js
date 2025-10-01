@@ -2,6 +2,7 @@ import express from 'express'
 import { readFile } from 'fs/promises'
 import fs from 'fs/promises'
 import path from 'path'
+
 import { fileURLToPath } from 'url'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -32,13 +33,17 @@ app.post('/api/admin/auth/login', async (req,res,next)=>{
     try{
         const data = req.body
         if(data.email == 'red@gmail.com' && data.pass == 'blue'){
-         console.log('message logged')
-        
+            let m = await fs.readFile(file, 'utf-8')
+            console.log(m)
+            res.redirect('/')
+        }
+        else{
+            res.status(401).json({note: 'Wrong credentials'})
         }
     }
     catch(err){
         next(err)
-        res.status(404)
+        res.status(404).json({note: 'nope'})
     }
 })
 

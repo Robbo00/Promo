@@ -202,9 +202,9 @@ h1.d{
    justify-content: center;    
 }
 
-.picker>div>div>h1{
+/* .picker>div>div>h1{
 
-}
+} */
 
 i:hover{
     cursor: pointer;

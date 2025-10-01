@@ -80,7 +80,7 @@ export async function addStudent(input){
     const list = await listStudents()
     list.push(Student)
     console.log(list)
-    await fs.writeFile(file, JSON.stringify(list, null, 2), "utf-8")
+    await fs.writeFile(file, JSON.stringify(list, null, 2), "utf-8" )
 }
 
 app.get('/api/student', async (req,res,next) =>{
@@ -104,6 +104,8 @@ app.post('/api/student', async (req,res,next)=>{
         res.status(404)
     }
 })
+
+
 
 app.listen(5001, ()=>{
     console.log('http://localhost:5001')

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up/Login</title>
-    <link rel="stylesheet" href="user.css">
+    <title>Submissionsa</title>
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
     <div id="head" class="header">
@@ -12,18 +12,22 @@
     <div id="options" class="options">
         <sub onclick="window.location.href = `form.html`">Contact</sub>
         <sub onclick="window.location.href = `user.html`">Admin</sub>
+        <sub>Products</sub>
         <!-- <i class="fa-solid fa-cart-shopping ic" ></i> -->
         <!-- <i onclick="window.location.href = `user.html`" class="fa-jelly-fill fa-regular fa-user ic" ></i> -->
     </div>
     </div>
 
     <div class="disp">
-       <form method="post" action="/api/admin/auth/login">
-        <h1>Admin</h1>
-        <input type="email" placeholder="Username" name="email">
-        <input type="text" placeholder="Password" name="pass">
-        <button type="submit">Log in</button>
-       </form>
+        <table>    
+        <tr>
+        <th>Password</th>
+        <th>Name</th>
+        <th>Email</th>            
+        </tr>        
+    </table>
     </div>
+
 </body>
+<script src="admin.js"></script>
 </html>
