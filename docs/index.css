@@ -172,23 +172,45 @@ h1.d{
 .picker{
     display: flex;
     flex-direction: row;
-    height: 35%;
+    height: 28%;
     width: 100%;
     align-items: center;
     justify-content: center;
     gap: 1vh;
 }
 .picker>div{
-    border: solid 1px salmon;
+    border: solid .2vh black;
     width: 18%;
     height: 80%;
     border-radius: 3vh;
     transition: .3s;
+    position: relative;
 }
 
 .picker>div:hover{
     cursor: pointer;
 }
+
+.picker>div>div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 3vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;    
+}
+
+.picker>div>div>h1{
+
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+
 
 /* .ic{
     color: white;

@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
+    <title>Sign Up/Login</title>
+    <link rel="stylesheet" href="user.css">
 </head>
 <body>
     <div id="head" class="header">
@@ -14,55 +12,18 @@
     <div id="options" class="options">
         <sub onclick="window.location.href = `form.html`">Contact</sub>
         <sub onclick="window.location.href = `user.html`">Admin</sub>
-        <sub>Products</sub>
         <!-- <i class="fa-solid fa-cart-shopping ic" ></i> -->
         <!-- <i onclick="window.location.href = `user.html`" class="fa-jelly-fill fa-regular fa-user ic" ></i> -->
     </div>
     </div>
 
-    <div id="opening" class="opening">
-        <div class="Description">
-            <h1 class="d">FEEL THE MUSIC</h1>
-            <h2>Designed for sound adjusted for emotion</h2>
-            <button id="bow" >Shop Now</button>
-        </div>
-        <div class="image">
-                    <img src="beats.png">
-
-        </div>
+    <div class="disp">
+       <form method="post" action="/api/admin/auth/login">
+        <h1>Admin</h1>
+        <input type="email" placeholder="user" name="email">
+        <input type="text" placeholder="pass" name="pass">
+        <button type="submit">Log in</button>
+       </form>
     </div>
-
-    <div id="products" class="products">
-        <h1>Top Products</h1>
-        <div class="picker">
-            <div onclick="expand(this.id)" id="ear" class="earbuds">
-                <div>
-                    <h1>Headphones</h1>
-                </div>
-            </div>
-            
-            <div onclick="expand(this.id)" id="headp" class="headphones">
-                <div>
-                    <h1>Earbuds</h1>
-                </div>
-            </div>
-            
-            <div onclick="expand(this.id)" id="speak" class="speakers">
-                <div>
-                    <h1>Phone Cases</h1>
-                </div>
-            </div>
-            
-            <div onclick="expand(this.id)" id="charge" class="chargers">
-                <div>
-                    <h1>Charger</h1>
-                </div>
-            </div>
-            
-
-        </div>
-    </div>
-
 </body>
-<script src="index.js"></script>
-</html> 
+</html>

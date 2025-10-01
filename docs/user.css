@@ -38,49 +38,6 @@ body{
     z-index: 2;
 }
 
-.disp{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    height: 70vh;
-    width: 40vw;
-    gap: 1.5vh;
-    left: 4%;
-}
-
-INPUT{
-    height: 7vh;
-    border-radius: 1vh;
-    border: solid 1px;
-    font-size: large;
-}
-
-h1{
-    font-size: 5vw;
-    margin: 0;
-    padding: 0;
-    line-height: 16vh;
-}
-
-button{
-    height: 8vh;
-    width: 65%;
-    font-weight: 600;
-    background-color: #EE232B;
-    border-radius: 4vh;
-    font-size: 2.5vh;
-    color: white;
-    border: solid .3vh black;
-    margin-top: 1vh;
-}
 
 .options > sub:hover{
     cursor: pointer;
@@ -97,7 +54,54 @@ sub{
     color: white;
     cursor: pointer;
 }
+.disp{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 40%;
+    gap: 1.5vh;
+    align-items: center;
+    justify-content: center;
+}
 
-i:hover{
+INPUT{
+    height: 7vh;
+    border-radius: 1vh;
+    border: solid 1px;
+    font-size: large;
+    width: 60%;
+}
+
+h1{
+    font-size: 5vw;
+    margin: 0;
+    padding: 0;
+    line-height: 16vh;
+}
+.switch{
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    background-color: #EE232B;
+    border-radius: 2vh;
+    color: white;
+    transition: .2s;
+}
+button:hover{
     cursor: pointer;
+    color: #EE232B;
+    background-color: white;
 }
