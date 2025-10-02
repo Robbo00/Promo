@@ -1,12 +1,12 @@
-
 let dat = ''
+console.log(blue)
 document.addEventListener(onload, get())
 
 function get(){
       fetch('/data/submissions.json')
-     await .then(response => response.json())
-     await .then(data=>{
-        dat = data
-     })
-    console.log(dat)
+      .then(response => response.json())
+      .then(data=>{
+       console.log(data)
+     })   
 }
+

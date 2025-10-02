@@ -21,8 +21,8 @@ const file = path.join(folder, "admin.json")
 
 app.get('/api/admin', async (req,res,next) =>{
     try{
-        const users = await listUsers()
-        res.status(200).json({count: users.length, users})
+        // res.redirect('/admin.html')
+        res.render('/admin.html', {blue: 'red'})
     }
     catch(err){
         next(err)
@@ -34,8 +34,8 @@ app.post('/api/admin/auth/login', async (req,res,next)=>{
         const data = req.body
         if(data.email == 'red@gmail.com' && data.pass == 'blue'){
             let m = await fs.readFile(file, 'utf-8')
-            console.log(m)
-            res.redirect('/')
+            res.redirect('/admin.html')
+            res.render('/admin.js', {file: 'red'})
         }
         else{
             res.status(401).json({note: 'Wrong credentials'})
@@ -43,7 +43,7 @@ app.post('/api/admin/auth/login', async (req,res,next)=>{
     }
     catch(err){
         next(err)
-        res.status(404).json({note: 'nope'})
+        res.status(404).json({note: err})
     }
 })
 
