@@ -10,7 +10,7 @@ function get(){
         for (let i = 0; i < rip.length; i++) {
           let spec = document.createElement('tr')
           spec.innerHTML = `<tr><td>${rip[i].id}</td><td>${rip[i].fullName}</td><td>${rip[i].email}</td><td>${rip[i].area}</td><td>${rip[i].createdAt}</td></tr>` 
-        table.appendChild(spec)
+          table.appendChild(spec)
         }
      })   
 }
