@@ -30,8 +30,9 @@ export async function ensureDataFile() {
 }
 
 export async function listStudents(){
-    let raw = await readFile(file, 'utf-8')
     try{
+        let raw = await readFile(file, 'utf-8')
+        console.log(list + 'red')
         return json.parse(raw)
     }
     catch(err){
@@ -75,12 +76,8 @@ export async function addStudent(input){
         ...clean,
         createdAt: new Date().toISOString()
     }
-    console.log(Student)
 
-    const list = await listStudents()
-    list.push(Student)
-    console.log(list)
-    await fs.writeFile(file, JSON.stringify(list, null, 2), "utf-8" )
+    await fs.writeFile(file, JSON.stringify(Student),  {flag: 'a'}, 'utf-8')
 }
 
 app.get('/api/student', async (req,res,next) =>{
@@ -90,6 +87,7 @@ app.get('/api/student', async (req,res,next) =>{
     }
     catch(err){
         next(err)
+        res.status(404).json({note: err})
     }
 })
 
@@ -101,8 +99,46 @@ app.post('/api/student', async (req,res,next)=>{
     }
     catch(err){
         next(err)
-        res.status(404)
+        res.status(404).json({note: err})
     }
+})
+
+
+app.get('/api/admin', async (req,res,next) =>{
+    try{
+        // res.redirect('/admin.html')
+        res.sendFile(__dirname + '/docs/admin.html')
+    }
+    catch(err){
+        next(err)
+    }
+})
+
+app.get('/api/admin/data', async (req,res,next) =>{
+    try{
+        res.json({dat: await readFile(file, 'utf-8')})
+}
+    catch(err){
+        res.status(404).json({note: err})
+    }
+})
+
+app.post('/api/admin/auth/login', async (req,res,next)=>{
+    try{
+        const data = req.body
+        if(data.email == 'red@gmail.com' && data.pass == 'blue'){
+            let m = await fs.readFile(file, 'utf-8')
+            res.redirect('/admin.html')
+            res.render('/admin.js', {file: 'red'})
+        }
+        else{
+            res.status(401).json({note: 'Wrong credentials'})
+        }
+    }
+    catch(err){
+        next(err)
+        res.status(404).json({note: err})
+h    }
 })
 
 

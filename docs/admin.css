@@ -67,7 +67,15 @@ sub{
     flex-direction: column;
 }
 table{
-    width: 55%;
-    height: 60%;
+    width: 75%;
+    height: 90%;
+    border: solid 1px black;
+}
+
+table > *{
+    border: solid 1px black;
+}
+
+table > tr > *{
     border: solid 1px black;
 }
