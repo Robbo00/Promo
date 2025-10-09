@@ -105,8 +105,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "api": "nodemon api.js",
-    "admin": "nodemon apo.js"
+    "api": "nodemon api.js"
   },
   "keywords": [],
   "author": "",
