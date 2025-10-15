@@ -3,7 +3,11 @@ let nav = document.getElementById('head')
 let display = document.getElementById('opening')
 let opt = document.getElementById('options')
 let prod = document.getElementById('products')
+let h = document.getElementById('head')
 let past = null
+// import fs from 'fs/promises'
+// import path from 'path'
+// import { fileURLToPath } from 'url'
 
 interactionOne.addEventListener('click', pop)
 
@@ -12,13 +16,14 @@ function pop(){
     setTimeout(function (){
         display.style.display = 'none'
     }, 1000)
-    document.body.style.backgroundColor = 'white'
-    opt.style.color = 'black'
+    document.body.style.backgroundColor = '#1c1b1b'
+    h.style.backgroundColor = 'black'
     prod.style.display = 'flex'
     
     setTimeout(() => {
         prod.style.top = '8.3%'
     }, 200); 
+    // generate()
 }
   
 function expand(id){
@@ -33,3 +38,7 @@ function expand(id){
 
     past = document.getElementById(id)
 }
+
+// async function generate(){
+
+// }

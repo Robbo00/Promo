@@ -25,7 +25,7 @@ body{
    align-items: center;
    justify-content: start;
    gap: 80vw;
-   left: 2vw;
+   /* left: 2vw; */
    transition: background-color .3s;
 }
 
@@ -172,11 +172,12 @@ h1.d{
 .picker{
     display: flex;
     flex-direction: row;
-    height: 28%;
+    height: 10%;
     width: 100%;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     gap: 1vh;
+    border-bottom: .1vh solid rgba(0, 0, 0, 0.3);
 }
 .picker>div{
     border: solid .2vh black;
@@ -185,6 +186,7 @@ h1.d{
     border-radius: 3vh;
     transition: .3s;
     position: relative;
+    margin-bottom: 1vh;
 }
 
 .picker>div:hover{
@@ -209,8 +211,29 @@ h1.d{
 i:hover{
     cursor: pointer;
 }
+#cards{
+    height: 110%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 3%;
+    margin-top: 2vh;
+}
 
+#cards > div{
+width: 30%;
+height: 80%;
+border: solid .1vh rgba(0, 0, 0, 0.4);
+border-radius: 2vh;
+}
 
+#cards > div > img{
+object-position: center;
+object-fit: fill;
+border-radius: inherit;
+}
 
 /* .ic{
     color: white;

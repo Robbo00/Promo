@@ -1,194 +1,308 @@
 [
-    {
-      "name": "Powerbeats Fit",
-      "price": "Original Price $199.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-jetblack.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Powerbeats Pro 2",
-      "price": "Original Price $249.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-gravelgray.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Powerbeats Fit",
-      "price": "Original Price $199.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-sparkorange.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Powerbeats Pro 2",
-      "price": "Original Price $249.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-powerpink.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats Solo Buds",
-      "price": "Original Price $79.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/jet-black/pc-pbpro2-jet-black-p01-wired-badge.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats Studio Buds +",
-      "price": "Original Price $169.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/quick-sand/pc-pbpro2-quick-sand-p01-wired-badge.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats Flex",
-      "price": "Original Price $69.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/hyper-purple/pc-pbpro2-hyper-purple-p01-wired-badge.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats Studio Pro",
-      "price": "Original Price $349.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/electric-orange/pc-pbpro2-electric-orange-p01-wired-badge.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats Solo 4",
-      "price": "Original Price $199.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-jetblack.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats Pill",
-      "price": "Original Price $149.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-gravelgray.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Rugged Case",
-      "price": "Original Price $79.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-sparkorange.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Kickstand Case",
-      "price": "Original Price $59.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-powerpink.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Case",
-      "price": "Original Price $45.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/jet-black/pc-pbpro2-jet-black-p01-wired-badge.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Pro Rugged Case",
-      "price": "Original Price $79.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/quick-sand/pc-pbpro2-quick-sand-p01-wired-badge.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Pro Kickstand Case",
-      "price": "Original Price $59.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/hyper-purple/pc-pbpro2-hyper-purple-p01-wired-badge.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Pro Case",
-      "price": "Original Price $45.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/electric-orange/pc-pbpro2-electric-orange-p01-wired-badge.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Pro Max Rugged Case",
-      "price": "Original Price $79.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/solo-buds/plp/plp-solobuds-arcticpurple.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Pro Max Kickstand Case",
-      "price": "Original Price $59.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/solo-buds/plp/plp-solobuds-transparentred.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone 17 Pro Max Case",
-      "price": "Original Price $45.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/solo-buds/plp/plp-solobuds-matteblack.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "iPhone Air Case",
-      "price": "Original Price $45.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/solo-buds/plp/plp-solobuds-stormgray.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats iPhone 16 Case with MagSafe",
-      "price": "Original Price $49.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/studio-buds-plus/plp/plp-studiobudsplus-transparent.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats iPhone 16 Plus Case with MagSafe",
-      "price": "Original Price $49.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/studio-buds-plus/plp/plp-studiobudsplus-black.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats iPhone 16 Pro Case with MagSafe",
-      "price": "Original Price $49.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/studio-buds-plus/plp/plp-studiobudsplus-ivory.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "Beats iPhone 16 Pro Max Case with MagSafe",
-      "price": "Original Price $49.00",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/beats-flex/plp/plp-flex-flame-blue.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "USB-C to USB-C Cable",
-      "price": "Original Price $18.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/beats-flex/plp/plp-flex-black.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "USB-A to USB-C Cable",
-      "price": "Original Price $18.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/beats-flex/plp/plp-flex-yuzu-yellow.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "USB-C to Lightning Cable",
-      "price": "Original Price $18.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/beats-flex/plp/plp-flex-smoke-gray.jpg.large.2x.jpg",
-      "type": "earbuds"
-    },
-    {
-      "name": "USB-C to USB-C Cables (2-Pack)",
-      "price": "Original Price $34.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/sandstone/alt/sandstone-01-studiopro-cnet.jpg.large.2x.jpg",
-      "type": "cables"
-    },
-    {
-      "name": "USB-A to USB-C Cables (2-Pack)",
-      "price": "Original Price $34.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/black/alt/black-01-studiopro-cnet.jpg.large.2x.jpg",
-      "type": "headphones"
-    },
-    {
-      "name": "USB-C to USB-C Short Cable",
-      "price": "Original Price $18.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/navy/alt/navy-01-studiopro-cnet.jpg.large.2x.jpg",
-      "type": "cables"
-    },
-    {
-      "name": "USB-A to USB-C Short Cable",
-      "price": "Original Price $18.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/deep-brown/alt/brown-01-studiopro-cnet.jpg.large.2x.jpg",
-      "type": "cables"
-    },
-    {
-      "name": "USB-C to Lightning Short Cable",
-      "price": "Original Price $18.99",
-      "img": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo4-wireless/pdp/product-carousel/cloud-pink/pink-01-solo4-cnet.jpg.large.2x.jpg",
-      "type": "cables"
-    }
-  ]
+  {
+    "name": "Powerbeats Fit",
+    "price": "Original Price $199.99",
+    "img": [
+      "/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-jetblack.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-gravelgray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-sparkorange.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-powerpink.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-jetblack.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-gravelgray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-sparkorange.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-fit/plp/powerbeatsfit-powerpink.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Powerbeats Pro 2",
+    "price": "Original Price $249.99",
+    "img": [
+      "/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/jet-black/pc-pbpro2-jet-black-p01-wired-badge.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/quick-sand/pc-pbpro2-quick-sand-p01-wired-badge.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/hyper-purple/pc-pbpro2-hyper-purple-p01-wired-badge.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/electric-orange/pc-pbpro2-electric-orange-p01-wired-badge.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/jet-black/pc-pbpro2-jet-black-p01-wired-badge.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/quick-sand/pc-pbpro2-quick-sand-p01-wired-badge.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/hyper-purple/pc-pbpro2-hyper-purple-p01-wired-badge.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/powerbeats-pro-2/pdp/product-carousel/electric-orange/pc-pbpro2-electric-orange-p01-wired-badge.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats Solo Buds",
+    "price": "Original Price $79.99",
+    "img": [  
+      "/content/dam/beats/web/product/earbuds/solo-buds/plp/plp-solobuds-arcticpurple.jpg.large.2x.jpg",
+    "/content/dam/beats/web/product/earbuds/solo-buds/plp/plp-solobuds-transparentred.jpg.large.2x.jpg",
+    "/content/dam/beats/web/product/earbuds/solo-buds/plp/plp-solobuds-matteblack.jpg.large.2x.jpg",
+    "/content/dam/beats/web/product/earbuds/solo-buds/plp/plp-solobuds-stormgray.jpg.large.2x.jpg"],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats Studio Buds +",
+    "price": "Original Price $169.99",
+    "img": [  
+      "/content/dam/beats/web/product/earbuds/studio-buds-plus/plp/plp-studiobudsplus-transparent.jpg.large.2x.jpg",
+    "/content/dam/beats/web/product/earbuds/studio-buds-plus/plp/plp-studiobudsplus-black.jpg.large.2x.jpg",
+    "/content/dam/beats/web/product/earbuds/studio-buds-plus/plp/plp-studiobudsplus-ivory.jpg.large.2x.jpg"],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats Flex",
+    "price": "Original Price $69.99",
+    "img": [
+      "/content/dam/beats/web/product/earbuds/beats-flex/plp/plp-flex-flame-blue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/beats-flex/plp/plp-flex-black.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/beats-flex/plp/plp-flex-yuzu-yellow.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/earbuds/beats-flex/plp/plp-flex-smoke-gray.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats Studio Pro",
+    "price": "Original Price $349.99",
+    "img": [
+      "/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/sandstone/alt/sandstone-01-studiopro-cnet.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/black/alt/black-01-studiopro-cnet.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/navy/alt/navy-01-studiopro-cnet.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/deep-brown/alt/brown-01-studiopro-cnet.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats Solo 4",
+    "price": "Original Price $199.99",
+    "img": [
+      "/content/dam/beats/web/product/headphones/solo4-wireless/pdp/product-carousel/cloud-pink/pink-01-solo4-cnet.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/headphones/solo4-wireless/pdp/product-carousel/slate-blue/blue-01-solo4-cnet.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/headphones/solo4-wireless/pdp/product-carousel/matte-black/black-01-solo4-cnet.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats Pill",
+    "price": "Original Price $149.99",
+    "img": [
+      "/content/dam/beats/web/product/speakers/beats-pill/pdp/product-carousel/gold/gold-01-beatspill-gizmodo.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/speakers/beats-pill/pdp/product-carousel/black/black-01-beatspill-gizmodo.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/speakers/beats-pill/pdp/product-carousel/red/red-01-beatspill-gizmodo.jpg.large.2x.jpg"
+    ],
+    "type": "speaker"
+  },
+  {
+    "name": "iPhone 17 Rugged Case",
+    "price": "Original Price $79.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-rugged/iphone17-rugged-everestblack.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-rugged/iphone17-rugged-rockyblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-rugged/iphone17-rugged-alpinegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-rugged/iphone17-rugged-sierraorange.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone 17 Kickstand Case",
+    "price": "Original Price $59.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-kickstand/iphone17-kickstand-granitegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-kickstand/iphone17-kickstand-bedrockblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-kickstand/iphone17-kickstand-limestone.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-kickstand/iphone17-kickstand-pebblepink.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone 17 Case",
+    "price": "Original Price $45.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17/iphone17-granitegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17/iphone17-bedrockblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17/iphone17-limestone.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17/iphone17-pebblepink.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone 17 Pro Rugged Case",
+    "price": "Original Price $79.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-rugged/iphone17pro-rugged-everestblack.jpg.large.2x.jpg",
+  "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-rugged/iphone17pro-rugged-rockyblue.jpg.large.2x.jpg",
+  "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-rugged/iphone17pro-rugged-alpinegray.jpg.large.2x.jpg",
+  "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-rugged/iphone17pro-rugged-sierraorange.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone 17 Pro Kickstand Case",
+    "price": "Original Price $59.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-kickstand/iphone17pro-kickstand-granitegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-kickstand/iphone17pro-kickstand-bedrockblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-kickstand/iphone17pro-kickstand-limestone.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-kickstand/iphone17pro-kickstand-pebblepink.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone 17 Pro Case",
+    "price": "Original Price $45.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro/iphone17pro-granitegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro/iphone17pro-bedrockblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro/iphone17pro-limestone.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro/iphone17pro-pebblepink.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone 17 Pro Max Rugged Case",
+    "price": "Original Price $79.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max-rugged/iphone17promax-rugged-everestblack.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max-rugged/iphone17promax-rugged-rockyblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max-rugged/iphone17promax-rugged-alpinegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max-rugged/iphone17promax-rugged-sierraorange.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone 17 Pro Max Kickstand Case",
+    "price": "Original Price $59.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max-kickstand/iphone17promax-kickstand-granitegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max-kickstand/iphone17promax-kickstand-bedrockblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max-kickstand/iphone17promax-kickstand-limestone.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max-kickstand/iphone17promax-kickstand-pebblepink.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone 17 Pro Max Case",
+    "price": "Original Price $45.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max/iphone17promax-granitegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max/iphone17promax-bedrockblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max/iphone17promax-limestone.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-17-pro-max/iphone17promax-pebblepink.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "iPhone Air Case",
+    "price": "Original Price $45.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-air/iphoneair-granitegray.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-air/iphoneair-bedrockblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-air/iphoneair-limestone.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-17/plp/iphone-air/iphoneair-pebblepink.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats iPhone 16 Case with MagSafe",
+    "price": "Original Price $49.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16/iphone-16-midnightblack.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16/iphone-16-riptideblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16/iphone-16-sunsetpurple.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16/iphone-16-summitstone.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats iPhone 16 Plus Case with MagSafe",
+    "price": "Original Price $49.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-plus/iphone-16-plus-midnightblack.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-plus/iphone-16-plus-riptideblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-plus/iphone-16-plus-sunsetpurple.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-plus/iphone-16-plus-summitstone.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats iPhone 16 Pro Case with MagSafe",
+    "price": "Original Price $49.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-pro/iphone-16-pro-midnightblack.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-pro/iphone-16-pro-riptideblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-pro/iphone-16-pro-sunsetpurple.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-pro/iphone-16-pro-summitstone.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "Beats iPhone 16 Pro Max Case with MagSafe",
+    "price": "Original Price $49.00",
+    "img": [
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-pro-max/iphone-16-promax-midnightblack.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-pro-max/iphone-16-promax-riptideblue.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-pro-max/iphone-16-promax-sunsetpurple.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/phone-cases/iphone-16/plp/iphone-16-pro-max/iphone-16-promax-summitstone.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "USB-C to USB-C Cable",
+    "price": "Original Price $18.99",
+    "img": [
+        "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-usbc-woven-cable/c-c-bolt-black-plp.jpg.large.2x.jpg",
+  "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-usbc-woven-cable/c-c-surge-stone-plp.jpg.large.2x.jpg",
+  "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-usbc-woven-cable/c-c-rapid-red-plp.jpg.large.2x.jpg",
+  "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-usbc-woven-cable/c-c-nitro-navy-plp.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "USB-A to USB-C Cable",
+    "price": "Original Price $18.99",
+    "img": [
+      "/content/dam/beats/web/product/accessories/charging-cables/plp/usba-usbc-woven/a-c-bolt-black-plp.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/charging-cables/plp/usba-usbc-woven/a-c-surge-stone-plp.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/charging-cables/plp/usba-usbc-woven/a-c-rapid-red-plp.jpg.large.2x.jpg"    
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "USB-C to Lightning Cable",
+    "price": "Original Price $18.99",
+    "img": [
+      "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-lightning-woven-cable/c-l-bolt-black-plp.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-lightning-woven-cable/c-l-surge-stone-plp.jpg.large.2x.jpg",
+      "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-lightning-woven-cable/c-l-rapid-red-plp.jpg.large.2x.jpg"
+    ],
+    "type": "earbuds"
+  },
+  {
+    "name": "USB-C to USB-C Cables (2-Pack)",
+    "price": "Original Price $34.99",
+    "img": [  "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-usbc-woven-cable/c-c-2p-bolt-black-plp.jpg.large.2x.jpg"],
+    "type": "headphones"
+  },
+  {
+    "name": "USB-A to USB-C Cables (2-Pack)",
+    "price": "Original Price $34.99",
+    "img": [  "/content/dam/beats/web/product/accessories/charging-cables/plp/usba-usbc-woven/a-c-2p-bolt-black-plp.jpg.large.2x.jpg"  ],
+    "type": "headphones"
+  },
+  {
+    "name": "USB-C to USB-C Short Cable",
+    "price": "Original Price $18.99",
+    "img": [  "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-usbc-woven-cable/c-c-short-bolt-black-plp.jpg.large.2x.jpg"  ],
+    "type": "headphones"
+  },
+  {
+    "name": "USB-A to USB-C Short Cable",
+    "price": "Original Price $18.99",
+    "img": [  "/content/dam/beats/web/product/accessories/charging-cables/plp/usba-usbc-woven/a-c-short-bolt-black-plp.jpg.large.2x.jpg"  ],
+    "type": "headphones"
+  },
+  {
+    "name": "USB-C to Lightning Short Cable",
+    "price": "Original Price $18.99",
+    "img": [  "/content/dam/beats/web/product/accessories/charging-cables/plp/usbc-lightning-woven-cable/c-l-short-bolt-black-plp.jpg.large.2x.jpg"  ],
+    "type": "headphones"
+  }
+]

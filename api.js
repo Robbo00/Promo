@@ -33,18 +33,37 @@ app.get("/api/beats", async (req, res) => {
     
     //loops through and pushes the info to the poducts array
     for (let i = 0; i < names.length; i++) {
+      let go = 'idk'
+
+      for (let o = 0; o < products.length; o++) {
+        if(names[i] == products[o].name){
+          go = 'stop'
+        }        
+      }
+
+      if(go == 'stop'){
+        continue
+      }
+
       //pattern to determine type by reading the image path
       let pattern = /(headphones)|(speakers)|(earbuds)|(cables)|(cases)/
+
       let triv = names[i].toLowerCase()
-      triv = triv.replaceAll(' ', '-')
+
+      triv = triv.replaceAll(/\s/g, '-')
+
       let reg = new RegExp(triv)
+
       let pImg = []
+
       console.log(triv)
+
       for (let i = 0; i < imgo.length; i++) {
         if(imgo[i].match(reg)){
           console.log('red')
           pImg.push(imgo[i])
-          imgo.splice(i, 1)
+          // imgo.splice(i, 1)
+          // i--
         }        
       }
       let typ = imgo[i].match(pattern)
@@ -57,12 +76,14 @@ app.get("/api/beats", async (req, res) => {
       })
     }
     //Outputs products
-      res.json({products})
+      res.json(imgo)
   } catch (err) {
     console.error(err.message)
     res.status(500).json({ error: "Failed to scrape data" })
   }
 })
+
+
 
 
 
