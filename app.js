@@ -33,7 +33,7 @@ export async function listStudents(){
     try{
         let raw = await readFile(file, 'utf-8')
         console.log(list + 'red')
-        return json.parse(raw)
+        return raw
     }
     catch(err){
         console.log('404 error')
@@ -70,13 +70,14 @@ function genId(){
 
 export async function addStudent(input){
     let clean = dataValidation(input)
+    let list = JSON.parse(listStudents())
     console.log(clean)
     const Student = {
         id: genId(),
         ...clean,
         createdAt: new Date().toISOString()
     }
-
+    list.push(Student)
     await fs.writeFile(file, JSON.stringify(Student),  {flag: 'a'}, 'utf-8')
 }
 
@@ -129,7 +130,7 @@ app.post('/api/admin/auth/login', async (req,res,next)=>{
         if(data.email == 'red@gmail.com' && data.pass == 'blue'){
             let m = await fs.readFile(file, 'utf-8')
             res.redirect('/admin.html')
-            res.render('/admin.js', {file: 'red'})
+            // res.render('/admin.js')
         }
         else{
             res.status(401).json({note: 'Wrong credentials'})
