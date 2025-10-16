@@ -32,8 +32,7 @@ export async function ensureDataFile() {
 export async function listStudents(){
     try{
         let raw = await readFile(file, 'utf-8')
-        console.log(list + 'red')
-        return raw
+        return JSON.parse(raw)
     }
     catch(err){
         console.log('404 error')
@@ -70,15 +69,14 @@ function genId(){
 
 export async function addStudent(input){
     let clean = dataValidation(input)
-    let list = JSON.parse(listStudents())
-    console.log(clean)
+    let list = await JSON.parse(listStudents())
     const Student = {
         id: genId(),
         ...clean,
         createdAt: new Date().toISOString()
     }
     list.push(Student)
-    await fs.writeFile(file, JSON.stringify(Student),  {flag: 'a'}, 'utf-8')
+    await fs.writeFile(file, JSON.stringify('list'), 'utf-8')
 }
 
 app.get('/api/student', async (req,res,next) =>{
@@ -96,7 +94,7 @@ app.post('/api/student', async (req,res,next)=>{
     try{
         const data = req.body
         const created = addStudent(data)
-        res.status(201).json({message: 'added', list: listStudents()})
+        res.status(201).json({message: 'added'})
     }
     catch(err){
         next(err)
