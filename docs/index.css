@@ -160,8 +160,10 @@ h1.d{
     transition: .5s;
     display: none;
     align-items: center;
+    justify-content: center;
     /* justify-content: center; */
-    flex-direction: column;
+    flex-direction: row;
+    gap: 5vw;
 }
 
 .products>h1{
@@ -169,72 +171,36 @@ h1.d{
     font-weight: 600
 }
 
-.picker{
+.products > div{
+    height: 90%;
+    border: solid 1px white;
+}
+
+.filter{
+    width: 20%;
+}
+
+.cards{
+    width: 65%;
     display: flex;
     flex-direction: row;
-    height: 10%;
-    width: 100%;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 1vh;
-    border-bottom: .1vh solid rgba(0, 0, 0, 0.3);
-}
-.picker>div{
-    border: solid .2vh black;
-    width: 18%;
-    height: 80%;
-    border-radius: 3vh;
-    transition: .3s;
-    position: relative;
-    margin-bottom: 1vh;
-}
-
-.picker>div:hover{
-    cursor: pointer;
-}
-
-.picker>div>div{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, .2);
-    border-radius: 3vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;    
-}
-
-/* .picker>div>div>h1{
-
-} */
-
-i:hover{
-    cursor: pointer;
-}
-#cards{
-    height: 110%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     gap: 3%;
-    margin-top: 2vh;
 }
 
-#cards > div{
-width: 30%;
-height: 80%;
-border: solid .1vh rgba(0, 0, 0, 0.4);
-border-radius: 2vh;
+.cards > .product-card{
+    border: solid 1px white;
+    border-radius: .5vw;
+    width: 30%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
 }
 
-#cards > div > img{
-object-position: center;
-object-fit: fill;
-border-radius: inherit;
+.product-card > img{
+    mix-blend-mode: multiply;
 }
 
-/* .ic{
-    color: white;
-} */
+
+
+

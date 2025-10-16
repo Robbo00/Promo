@@ -16,6 +16,7 @@ function pop(){
     setTimeout(function (){
         display.style.display = 'none'
     }, 1000)
+    // document.body.style.backgroundColor = 'white'
     document.body.style.backgroundColor = '#1c1b1b'
     h.style.backgroundColor = 'black'
     prod.style.display = 'flex'
